@@ -1,8 +1,7 @@
 -- =====================================================================
 -- NovaFarma Category Demand Analytics — Analysis Queries
 -- Asume las tablas FactSales(Date, CategoryCode, UnitsSold)
--- y DimCategory(CategoryCode, TherapeuticGroup, CategoryGroup) cargadas
--- en una base relacional estándar (sintaxis ANSI SQL / T-SQL compatible).
+-- y DimCategory(CategoryCode, TherapeuticGroup, CategoryGroup)
 -- =====================================================================
 
 -- 1) Ranking de categorías por volumen total
@@ -72,5 +71,4 @@ FROM FactSales
 GROUP BY CategoryCode
 ORDER BY CV_Pct DESC;
 
--- 7) Top categorías con mayor caída interanual sostenida (para revisión de stock)
--- (usa la CTE "yearly" de la query 3 como referencia conceptual)
+
