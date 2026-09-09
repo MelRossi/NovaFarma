@@ -1,9 +1,6 @@
 """
 NovaFarma Category Demand Analytics — Exploratory Data Analysis
 Fuente: Pharma Sales Data (Milan Zdravkovic) - https://www.kaggle.com/datasets/milanzdravkovic/pharma-sales-data
-
-Este script reproduce el EDA usado para fundamentar los insights del proyecto
-(ver documentation/insights.md). No requiere librerías más allá de pandas/numpy.
 """
 
 import pandas as pd
