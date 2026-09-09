@@ -67,3 +67,29 @@ DimDate (1) ──< FactSales >── (1) DimCategory
 - **N02BA en declive estructural:** -30% en el mismo período.
 - **Enero y octubre son los meses de mayor demanda**; julio el más bajo — patrón estacional claro y aprovechable para planificación de compras.
 - **N05C es la categoría más volátil** (coeficiente de variación ~184%), pese a representar solo ~1% del volumen — mayor riesgo relativo de quiebre o sobre-stock puntual.
+
+
+## Estructura del repositorio
+
+```
+novafarma-category-demand-analytics/
+├── README.md
+├── insights.md
+├── data/
+│   ├── raw/                     
+│   └── processed/               
+├── python/
+│   └── exploratory_analysis.py
+├── sql/
+│   └── analysis_queries.sql
+├── powerbi/
+│   ├── project.pbix
+└── screenshots/
+    ├── 00_portada.png
+    ├── 01_executive_overview.png
+    ├── 02_category_trend_analysis.png
+    ├── 03_seasonality_inventory_risk.png
+    └── 04_category_deep_dive.png
+
+
+Proyecto personal de portfolio — Data Analyst / BI Analyst.
